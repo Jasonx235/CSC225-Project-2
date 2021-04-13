@@ -1,3 +1,40 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-name {
+  font-size: clamp(40px, 7vw, 200px);
+}
+
+.hero-text {
+  font-size: clamp(15px, 2vw, 50px);
+}
+
+.footer-links {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.footer-links li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.footer-links li a:hover {
+  color: rgba(255, 255, 255, 1);
+}
