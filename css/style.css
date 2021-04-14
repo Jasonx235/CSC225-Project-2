@@ -43,6 +43,7 @@ body {
     url("../images/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .about-img {
@@ -50,6 +51,7 @@ body {
     url("../images/hero-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .about-name {
