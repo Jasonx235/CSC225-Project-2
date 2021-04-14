@@ -66,3 +66,20 @@ body {
   height: clamp(100px, 20vw, 200px);
   width: clamp(100px, 20vw, 200px);
 }
+
+.shopping-name {
+  font-size: clamp(24px, 2vw, 60px);
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.remove:hover {
+  color: red;
+}
+
+.fit-content {
+  height: fit-content;
+  overflow: auto;
+}
