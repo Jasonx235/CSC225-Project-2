@@ -117,6 +117,7 @@
             class="form-control"
             id="inputAddress"
             placeholder="123 Keeb St"
+            name="inputAddress"
             required
           />
         </div>
@@ -127,16 +128,29 @@
             class="form-control"
             id="inputAddress2"
             placeholder="(Optional)"
+            name="inputAddress2"
           />
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">City *</label>
-            <input type="text" class="form-control" id="inputCity" required />
+            <input
+              type="text"
+              class="form-control"
+              id="inputCity"
+              name="inputCity"
+              required
+            />
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">State *</label>
-            <input type="text" class="form-control" id="inputState" required />
+            <input
+              type="text"
+              class="form-control"
+              id="inputState"
+              name="inputState"
+              required
+            />
           </div>
           <div class="form-group col-md-2">
             <label for="inputZip">Zip *</label>
@@ -145,6 +159,7 @@
               class="form-control"
               id="inputZip"
               ^[0-9]{5}$
+              name="inputZip"
               required
             />
           </div>
@@ -154,7 +169,13 @@
         <div class="form-row">
           <div class="form-group col-md-6 offset-md-3">
             <label for="cardHolder">Name on Card *</label>
-            <input type="text" class="form-control" id="cardHolder" required />
+            <input
+              type="text"
+              class="form-control"
+              id="cardHolder"
+              name="cardHolder"
+              required
+            />
           </div>
         </div>
         <div class="form-row">
@@ -165,6 +186,7 @@
               class="form-control"
               id="cardNumber"
               pattern="(?:(4[0-9]{12}(?:[0-9]{3})?)"
+              name="cardNumber"
               required
             />
           </div>
@@ -178,6 +200,7 @@
               id="expiryDate"
               placeholder="mm/yy"
               pattern="^(0[1-9]|1[0-2])/(19|2[0-1])\d{2}$"
+              name="expiryDate"
               required
             />
           </div>
@@ -188,6 +211,7 @@
               class="form-control"
               id="ccvcvc"
               pattern="^[0-9]{3}$"
+              name="ccvcvc"
               required
             />
           </div>
